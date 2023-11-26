@@ -1,0 +1,181 @@
+.main {
+    margin-left: 265px;
+  }
+  .main > .main_flex > h1 {
+    margin: 0;
+    padding: 25px 40px 17px 40px;
+    color: #0073a5;
+    width: 50%;
+  }
+  .main_flex {
+    display: flex;
+  }
+ 
+  
+ 
+  
+  body {
+    background-color: #eaeaea;
+  }
+  
+  .flex_cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+  
+  .card {
+    width: 180px;
+    margin: 15px;
+    text-align: center;
+    font-family: arial;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  
+ 
+  
+  .card:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .card_emp {
+    /* border-radius: 50%; */
+  
+    position: relative;
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  /* https://www.webfx.com/blog/web-design/circular-images-css/ */
+  .card_img {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+  }
+  
+  .text_card {
+    font-size: 14px;
+  }
+  .card {
+    text-decoration: none;
+  }
+  
+  .card > h3 {
+    margin: 6px;
+  }
+  
+  .card > p {
+    margin: 8px;
+  }
+  
+
+  .card_team{
+    height: 50px;
+    width: 50px;
+  }
+
+
+
+
+
+  .eval > #title1 >h1{
+    color: #0073a5;
+    margin: 0 40px 0 25px;
+    padding: 25px 0 15px 0 ;
+    border-bottom: 2px solid lightgray;
+  }
+  
+  
+  
+  .middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  #DIV{
+  margin-top: 8%;
+    background-color: #0073a5;
+    border-radius: 20px;
+    width: 300px;
+  }
+  .DIV1{
+    padding: 0 20px 20px 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .star-icon > input {
+    display: none;
+  }
+  .star-icon > input + label {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .star-icon input:checked + label ~ label {
+    color: #838383;
+  }
+  .star-icon label:active {
+    transform: scale(0.8);
+    transition: 0.3s ease;
+  }
+
+  .btn_assign{
+
+    font-weight: bold;
+    color: #F2F2F2 !important;
+    font-size: 0.8rem;
+    padding: 10px 25px;
+    border-radius: 40px;
+    border:  0px solid #3866A3;
+    background:  #FF821E;
+    margin: 1%;
+    line-height: 1;
+  }
+
+  .btn_assign:hover{
+    background: #D26D1D;
+  }
+
+  .assign_select{
+    width: 100%;
+    height: 1.5rem;
+    border: 1px hidden;
+    border-radius: 20px;
+  }
+
+  .assign_select:focus{
+    outline: 0;
+  }
+
+
+  .prjct_lbl_slct{
+    display: block;
+    margin: 0.5rem;
+    font-family: ubuntu;
+    color: #fff;
+  }
+  
+  .hrofassign{
+
+    border: 0;
+    height:1px;
+    background:grey;
+  }
+
+
+  .card_projct{
+   width: 50px;
+   height: auto;
+  }

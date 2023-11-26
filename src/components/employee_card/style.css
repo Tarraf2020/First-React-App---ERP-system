@@ -1,0 +1,110 @@
+.main {
+  margin-left: 265px; 
+}
+.main > .main_flex > h1 {
+  margin: 0;
+  padding: 25px 40px 17px 40px;
+  color: #0073a5;
+  width: 50%;
+}
+.main_flex {
+  display: flex;
+}
+.main > .main_flex > input {
+  border: none;
+  font-size: 17px;
+  height: 40px;
+  width: 30%;
+  margin: 25px 0 17px 35px;
+  padding-left: 15px;
+}
+
+.main > .main_flex > button {
+  border: none;
+  width: 35px;
+  margin: 25px 25px 17px 0;
+  background-color: #ff821e;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+.flex_cards {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.card {
+  width: 180px;
+  margin: 15px;
+  text-align: center;
+  font-family: arial;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+
+.card_add:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card_add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  margin: 15px;
+  text-align: center;
+  font-family: arial;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card_emp {
+  /* border-radius: 50%; */
+
+  position: relative;
+  width: 110px;
+  height: 110px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+/* https://www.webfx.com/blog/web-design/circular-images-css/ */
+
+.card_img {
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+}
+
+.text_card {
+  font-size: 14px;
+}
+.link {
+  
+  text-decoration: none;
+}
+
+.link > h3 {
+  margin: 6px;
+}
+
+.link > p {
+  margin: 8px;
+}
+

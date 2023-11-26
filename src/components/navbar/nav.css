@@ -1,0 +1,49 @@
+.nav {
+  
+  height: 100%;
+  width: 250px;
+  background-color: #0073a5;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+
+}
+.nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #0073a5;
+  min-height: 100vh;
+}
+
+.nav > ul > li {
+  padding: 10px 0 10px 20px;
+  margin: 10px;
+}
+
+.nav > ul > img {
+  padding: 28px;
+}
+
+.nav > ul > li > a {
+  display: block;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* color change on hover */
+.nav > ul > li:hover {
+  background-color: #ff821e;
+  color: #fff;
+  border-radius: 10px;
+}
+.icon {
+  margin-right: 10px;
+}
+
+#down {
+  margin-top: 130px;
+}
